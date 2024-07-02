@@ -1,0 +1,36 @@
+.video-demo {
+    background-color: #f9f9f9;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.video-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.video-text{
+    text-align: center;
+}
+.video-container h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+    
+}
+
+.video-container p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #666;
+}
+
+.video-container iframe {
+    width: 900px;
+    height: 500px;
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+}

@@ -1,0 +1,75 @@
+img {
+  width: 100%;
+  height: auto;
+  max-height: 980px;
+}
+
+.image-container {
+  display: inline-block;
+  width: 100%;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.overlay-text h1 {
+  margin: 0;
+  font-size: 3.5rem;
+  opacity: 0; 
+  transition: opacity 1s ease-in-out; 
+  
+}
+
+.overlay-text p {
+  margin: 0.5rem 0 0;
+  font-size: 1.5rem;
+  color: black;
+  opacity: 0; 
+  transition: opacity 1s ease-in-out 1s; 
+}
+
+.join-community {
+  text-align: center;
+  margin-top: 20px;
+  opacity: 0; 
+  transition: opacity 1s ease-in-out 2s; 
+}
+.join-button {
+  display: inline-block;
+  background-color: rgb(255, 193, 213);
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.join-button:hover {
+  background-color: #555353; 
+  color: antiquewhite;
+}
+
+.fade-in {
+  animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}

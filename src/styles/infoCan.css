@@ -1,0 +1,49 @@
+.informative-section {
+    background-color: #f7f9fc; 
+    padding: 2rem; 
+    max-width: 1200px; 
+    margin: 4rem auto; 
+    font-family: Arial, sans-serif; 
+  }
+  
+  .informative-section h2 {
+    font-size: 2rem; 
+    color: #333; 
+  }
+  
+  .informative-section p {
+    font-size: 1rem; 
+    color: #666; 
+    margin-bottom: 1.5rem; 
+  }
+  
+  .informative-links {
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 1rem; 
+  }
+  
+  .link-box {
+    flex: 1 1 calc(33.333% - 1rem); 
+    background-color: #fff; 
+    padding: 1rem; 
+    border: 1px solid #ddd; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .link-box a {
+    color: #0066cc; 
+    text-decoration: none; 
+    font-weight: bold; 
+  }
+  
+  .link-box a:hover {
+    text-decoration: underline; 
+  }
+  
+  @media (max-width: 768px) {
+    .link-box {
+      flex: 1 1 100%; 
+    }
+  }
+  

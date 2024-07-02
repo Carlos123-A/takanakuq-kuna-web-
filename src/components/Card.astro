@@ -1,0 +1,10 @@
+---
+const { imageSrc, title, description } = Astro.props;
+import  '/src/styles/cards/info.css'
+---
+<div class="card">
+    <img src={imageSrc} alt={title} class="card-icon" />
+    <h3 >{title}</h3>
+    <p >{description}</p>
+</div>
+

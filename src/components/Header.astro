@@ -1,0 +1,15 @@
+---
+const { imageUrl = '/public/Inicio.jpg' } = Astro.props;
+import '/src/styles/header.css';
+---
+
+<div class="image-container">
+  <img src={imageUrl} alt="Imagen de Inicio" />
+  <div class="overlay-text">
+    <h1 class="fade-in">Conectando Vidas, Compartiendo Esperanza</h1>
+    <p class="fade-in">Una comunidad de apoyo para personas con cáncer. Comparte experiencias, recibe recomendaciones y conecta con especialistas.</p>
+    <div class="join-community fade-in">
+      <a href="https://drive.google.com/file/d/1gHoYNpbwrTGlP3K02FgSnyuSVesSAkYB/view?usp=sharing" class="join-button">Únete a nuestra comunidad</a>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,28 @@
+.card {
+    background: #fff;
+    border: 10px solid rgb(199 178 225); 
+    border-radius: 10px;
+    padding: 3rem;
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: default;
+    transition: all 400ms ease;
+  }
+  .card:hover{
+    box-shadow: 5px 5px 20px rgb(0, 0, 0,0.4);
+    transform: translateY(-3%);
+  }
+  .card-icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 1rem;
+  }
+  h3 {
+    margin: 1rem 0 0.5rem;
+    color: #333;
+  }
+  p {
+    text-align: left;
+    color: #666;
+  }

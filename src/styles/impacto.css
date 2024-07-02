@@ -1,0 +1,51 @@
+.impact-section {
+    background-color: #f7f9fc; 
+    padding: 2rem; 
+    max-width: 1200px; 
+    margin: 4rem auto; 
+    font-family: Arial, sans-serif; 
+  }
+  
+  .impact-section h2 {
+    font-size: 2rem; 
+    color: #333; 
+    text-align: center; 
+    margin-bottom: 2rem; 
+  }
+  
+  .impact-cards {
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .cards {
+    background-color: white; 
+    color: black; 
+    padding: 1.5rem; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    flex: 1 1 calc(33.333% - 2rem); 
+    text-align: center;
+  }
+  
+  .cards h3 {
+    font-size: 1.5rem; 
+    margin: 0 0 0.5rem 0; 
+  }
+  
+  .cards p {
+    font-size: 1rem; 
+    text-align: center;
+    margin: 0; 
+    border-top: 1px solid #ffffff; 
+    padding-top: 0.5rem; 
+  }
+  
+  @media (max-width: 768px) {
+    .cards {
+      flex: 1 1 100%; 
+    }
+  }
+  

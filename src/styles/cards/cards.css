@@ -1,0 +1,13 @@
+.info-cards {
+    background-size: cover;
+    background-position: center;
+    padding: 2rem 0;
+	  margin-top: 8rem;
+  }
+  .container {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }

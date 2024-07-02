@@ -1,0 +1,44 @@
+---
+import '../styles/contactForm.css'
+---
+
+<section class="contact-section">
+    <div class="contact-info">
+      <h2>Ponte en contacto con nosotros</h2>
+      <p>Escríbenos y gustosamente te responderemos</p>
+      <div class="info-item">
+        <span class="icon">📞</span>
+        <p>Teléfono<br/>(01)204-0404</p>
+      </div>
+      <div class="info-item">
+        <span class="icon">📱</span>
+        <p>WhatsApp<br/>988562238</p>
+      </div>
+    </div>
+    <div class="contact-form">
+      <form action="https://formsubmit.co/loconocarlos123@gmail.com" method="POST" autocomplete="off">
+        <div class="form-group">
+          <input type="text" name="name" placeholder="Nombres" required/>
+          <input type="text" name="apellidos" placeholder="Apellidos" required/>
+        </div>
+        <div class="form-group">
+          <input type="email" name="email" placeholder="Correo electrónico" required/>
+          <input type="tel" name="phone" placeholder="Celular" required/>
+        </div>
+        <div class="form-group">
+          <input type="text"  name="asunto" placeholder="Asunto" required/>
+        </div>
+        <div class="form-group">
+          <textarea name="message" placeholder="Comentario" required></textarea>
+        </div>
+        <button type="submit">Enviar</button>
+
+        <input type="hidden" name="_next" value="http://localhost:4321/contact">
+       
+        <input type="hidden" name="_captcha" value="false">
+        
+      </form>
+    </div>
+</section>
+  
+  

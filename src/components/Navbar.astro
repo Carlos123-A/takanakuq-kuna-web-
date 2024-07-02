@@ -1,0 +1,16 @@
+---
+import { routes } from '../config/routes';
+import '/src/styles/navbar.css';
+---
+
+<nav>
+  <div class="logo">
+    <img src="/public/logo2.webp" alt="Takanakuy Kuna" />
+  </div>
+  <ul>
+    {routes.map(route => (
+      <li class="hel" ><a  href={route.path}>{route.name}</a></li>
+    ))}
+  </ul>
+</nav>
+

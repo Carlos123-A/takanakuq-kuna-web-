@@ -1,0 +1,35 @@
+---
+import { routes } from '../config/routes';
+import '../styles/footer.css'
+---
+
+<footer>
+  <div class="footer-content">
+    <div class="logo-section">
+      <img src="/public/logo2.webp" alt="Takanakuy Kuna Logo">
+      <h2>TAKANAKUY-KUNA</h2>
+    </div>
+    <div class="footer-links">
+      <div class="section-links">
+        <h4>Explorar</h4>
+        <ul>
+          {routes.map(route => (
+            <li><a href={route.path}>{route.name}</a></li>
+          ))}
+        </ul>
+      </div>
+      <div class="contact-sections">
+        <h4>Contacto</h4>
+        <p>info@takanakuykuna.com</p>
+      </div>
+      <div class="social-links">
+        <h4>Links Sociales</h4>
+        <ul>
+          <li><a href="https://facebook.com/takanakuykuna"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href=""><i class="fab fa-google-play"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+

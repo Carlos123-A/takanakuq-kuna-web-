@@ -1,0 +1,80 @@
+
+  
+footer {
+    background-color: #fde8f1;
+    padding: 3rem 2rem;
+    font-family: Arial, sans-serif;
+    }
+  
+    .footer-content {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start; 
+    }
+  
+    .logo-section {
+      display: flex;
+      align-items: center;
+      margin-right: 2rem; 
+
+    }
+  
+    .logo-section img {
+      width: 100px;
+      height: auto;
+      margin-right: 10rem;
+    }
+  
+    .logo-section h2 {
+      margin: 0;
+      font-size: 1.8rem;
+      margin-left: -10rem;
+    }
+  
+    .footer-links {
+      display: flex;
+      gap: 2rem; 
+    }
+  
+    .section-links,
+    .contact-sections,
+    .social-links {
+      flex-grow: 1; 
+    }
+  
+    .section-links h4,
+    .contact-sections h4,
+    .social-links h4 {
+      margin-bottom: 1rem; 
+    }
+  
+    .section-links ul,
+    .social-links ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+  
+    .section-links li,
+    .social-links li {
+      margin-bottom: 0.5rem;
+    }
+  
+    .section-links a,
+    .social-links a {
+      text-decoration: none;
+      color: black;
+      transition: color 0.3s ease;
+    }
+  
+    .section-links a:hover,
+    .social-links a:hover {
+      text-decoration: underline;
+      color: #3498db;
+    }
+  
+    .contact-sections p {
+      color: black;
+    }

@@ -1,0 +1,128 @@
+
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 8.5rem; 
+    flex-wrap: wrap; 
+  }
+  .contact-info {
+    flex: 1;
+    padding: 1rem;
+    margin-top: -40px;
+    margin-left: 15rem;
+  }
+  .contact-info h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .contact-info p {
+    margin-bottom: 1rem;
+    color: black;
+  }
+  .info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  .info-item .icon {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+  }
+  .contact-form {
+    flex: 1;
+    background-color: #e0e9f1;
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 400px;
+    margin-right: 15rem;
+  }
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  .form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    flex-wrap: wrap; 
+  }
+  .form-group input {
+    flex: 1;
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .form-group textarea {
+    flex: 1;
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 150px;
+  }
+  .form-group input:last-child, .form-group textarea:last-child {
+    margin-right: 0;
+  }
+  textarea {
+    resize: vertical;
+  }
+  button {
+    padding: 0.75rem;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #2563eb;
+  }
+
+  @media (max-width: 1024px) {
+    .contact-info {
+      margin-left: 0;
+    }
+    .contact-form {
+      margin-right: 0;
+      max-width: 100%;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .contact-section {
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem; 
+    }
+    .contact-info {
+      margin-top: 0;
+      margin-left: 0;
+      text-align: center; 
+    }
+    .contact-form {
+      margin-top: 2rem;
+      margin-right: 0;
+      max-width: 100%;
+    }
+    .form-group {
+      flex-direction: column;
+    }
+    .form-group input, .form-group textarea {
+      margin-right: 0;
+      margin-bottom: 1rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .contact-section {
+      padding: 1rem; 
+    }
+    .contact-info h2 {
+      font-size: 1.5rem; 
+    }
+    .contact-form {
+      padding: 1rem;
+    }
+  }
